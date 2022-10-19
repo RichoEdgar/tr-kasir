@@ -84,6 +84,7 @@ public class MainMenu extends javax.swing.JFrame {
         jLabel7 = new javax.swing.JLabel();
         jTextField7 = new javax.swing.JTextField();
         BtnCariNamaSumKehadiran = new javax.swing.JButton();
+        BtnCetak = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setTitle("Personalia Dan Absensi");
@@ -368,7 +369,7 @@ public class MainMenu extends javax.swing.JFrame {
                             .addComponent(jLabel9))
                         .addGap(18, 18, 18)
                         .addGroup(PanelDataKehadiranLayout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
-                            .addComponent(jXDatePicker1, javax.swing.GroupLayout.DEFAULT_SIZE, 126, Short.MAX_VALUE)
+                            .addComponent(jXDatePicker1, javax.swing.GroupLayout.PREFERRED_SIZE, 126, Short.MAX_VALUE)
                             .addComponent(jTextField9))
                         .addGap(463, 463, 463)))
                 .addContainerGap())
@@ -511,6 +512,8 @@ public class MainMenu extends javax.swing.JFrame {
 
         BtnCariNamaSumKehadiran.setText("Cari");
 
+        BtnCetak.setText("Cetak");
+
         javax.swing.GroupLayout PanelSummaryHadirLayout = new javax.swing.GroupLayout(PanelSummaryHadir);
         PanelSummaryHadir.setLayout(PanelSummaryHadirLayout);
         PanelSummaryHadirLayout.setHorizontalGroup(
@@ -529,7 +532,10 @@ public class MainMenu extends javax.swing.JFrame {
                                 .addComponent(jTextField7, javax.swing.GroupLayout.PREFERRED_SIZE, 126, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(18, 18, 18)
                                 .addComponent(BtnCariNamaSumKehadiran, javax.swing.GroupLayout.PREFERRED_SIZE, 75, javax.swing.GroupLayout.PREFERRED_SIZE)))
-                        .addGap(0, 0, Short.MAX_VALUE)))
+                        .addGap(0, 0, Short.MAX_VALUE))
+                    .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, PanelSummaryHadirLayout.createSequentialGroup()
+                        .addGap(0, 0, Short.MAX_VALUE)
+                        .addComponent(BtnCetak)))
                 .addContainerGap())
         );
         PanelSummaryHadirLayout.setVerticalGroup(
@@ -547,7 +553,9 @@ public class MainMenu extends javax.swing.JFrame {
                 .addComponent(jScrollPane2, javax.swing.GroupLayout.PREFERRED_SIZE, 82, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 84, Short.MAX_VALUE)
                 .addComponent(jScrollPane5, javax.swing.GroupLayout.PREFERRED_SIZE, 99, javax.swing.GroupLayout.PREFERRED_SIZE)
-                .addGap(120, 120, 120))
+                .addGap(48, 48, 48)
+                .addComponent(BtnCetak)
+                .addGap(47, 47, 47))
         );
 
         PanelMain.add(PanelSummaryHadir, "card6");
@@ -640,6 +648,7 @@ public class MainMenu extends javax.swing.JFrame {
     private javax.swing.JButton BtnCariNama;
     private javax.swing.JButton BtnCariNamaDtKehadiran;
     private javax.swing.JButton BtnCariNamaSumKehadiran;
+    private javax.swing.JButton BtnCetak;
     private javax.swing.JButton BtnDataKehadiran;
     private javax.swing.JButton BtnDataPersonal;
     private javax.swing.JButton BtnEdit;

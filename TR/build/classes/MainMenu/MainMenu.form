@@ -877,6 +877,10 @@
                                   </Group>
                                   <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
                               </Group>
+                              <Group type="102" alignment="1" attributes="0">
+                                  <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
+                                  <Component id="BtnCetak" min="-2" max="-2" attributes="0"/>
+                              </Group>
                           </Group>
                           <EmptySpace max="-2" attributes="0"/>
                       </Group>
@@ -899,7 +903,9 @@
                           <Component id="jScrollPane2" min="-2" pref="82" max="-2" attributes="0"/>
                           <EmptySpace pref="84" max="32767" attributes="0"/>
                           <Component id="jScrollPane5" min="-2" pref="99" max="-2" attributes="0"/>
-                          <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="48" max="-2" attributes="0"/>
+                          <Component id="BtnCetak" min="-2" max="-2" attributes="0"/>
+                          <EmptySpace min="-2" pref="47" max="-2" attributes="0"/>
                       </Group>
                   </Group>
                 </DimensionLayout>
@@ -1023,6 +1029,11 @@
                 <Component class="javax.swing.JButton" name="BtnCariNamaSumKehadiran">
                   <Properties>
                     <Property name="text" type="java.lang.String" value="Cari"/>
+                  </Properties>
+                </Component>
+                <Component class="javax.swing.JButton" name="BtnCetak">
+                  <Properties>
+                    <Property name="text" type="java.lang.String" value="Cetak"/>
                   </Properties>
                 </Component>
               </SubComponents>
